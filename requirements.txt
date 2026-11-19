@@ -1,3 +1,14 @@
+﻿# Existing signal processing and testing dependencies
 numpy>=1.24
 scipy>=1.10
 pytest>=7.0
+
+# Streamlit frontend and dashboard
+streamlit
+pandas
+matplotlib
+
+# Camera and face tracking
+opencv-python
+mediapipe
+streamlit-webrtc
