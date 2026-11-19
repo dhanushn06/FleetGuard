@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -9,14 +9,17 @@ venv/
 .venv/
 env/
 
-# Environment variables / secrets
-.env
-.env.*
-!.env.example
-
 # IDE
-.vscode/
 .idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
 # OS
 .DS_Store
