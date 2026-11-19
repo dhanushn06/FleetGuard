@@ -1,5 +1,7 @@
 """Tests for signal_processing.multiregion module."""
 
+from typing import Dict, List, Optional
+
 import numpy as np
 import pytest
 
